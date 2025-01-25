@@ -1,6 +1,8 @@
 import './components.css'
 import { useState } from 'react';
 
+
+
 function ContactForm() {
 
     const [formData, setFormData] = useState({
@@ -22,7 +24,7 @@ function ContactForm() {
         e.preventDefault();
     
         try {
-          const response = await fetch("http://localhost:3000/api/send-inquiry", {
+          const response = await fetch(`${import.meta.env.VITE_API_URL}/api/send-inquiry`, {
             method: "POST",
             headers: {
               "Content-Type": "application/json",
