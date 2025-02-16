@@ -23,7 +23,7 @@ function ContactForm() {
     setStatus("Sending...");
 
     try {
-      const response = await fetch("https://domo-website-deploy-two.vercel.app/api/send-inquiry.js", {
+      const response = await fetch("/api/send-inquiry.js", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
