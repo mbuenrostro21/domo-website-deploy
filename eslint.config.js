@@ -10,7 +10,7 @@ export default [
     files: ['**/*.{js,jsx}'],
     languageOptions: {
       ecmaVersion: 2020,
-      globals: globals.browser,
+      globals: globals.browser, // For client-side code
       parserOptions: {
         ecmaVersion: 'latest',
         ecmaFeatures: { jsx: true },
@@ -33,6 +33,15 @@ export default [
         'warn',
         { allowConstantExport: true },
       ],
+    },
+  },
+  {
+    // ✅ Add this for server-side (API routes)
+    files: ['pages/api/**/*.js'],
+    languageOptions: {
+      globals: {
+        ...globals.node, // Add Node.js globals for API routes
+      },
     },
   },
 ]
