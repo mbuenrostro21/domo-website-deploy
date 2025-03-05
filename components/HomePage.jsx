@@ -8,27 +8,25 @@ function HomePage() {
                         <iframe 
                             id="disco-playlist-17672832" 
                             name="disco-playlist-17672832" 
-                            allowFullScreen 
-                            frameBorder="0" 
-                            className="disco-embed" 
-                            src="https://domolo.disco.ac/e/p/17672832?download=true&s=q5LwtRMMZGJPazGt3Y8IICrqz3U%3AD8yVrKSw&artwork=true&color=%23FBE094&theme=dark" 
+                            allowfullscreen frameborder="0" 
+                            class="disco-embed" 
+                            src="https://domolo.disco.ac/e/p/17672832?download=false&s=1z6N222TFjMTZvhFqwy6PsUInh8%3Ay6vUw6Hq&artwork=true&color=%2332B57C&theme=dark" 
                             width="480" 
-                            height="580">
-                        </iframe>
+                            height="580"
+                            ></iframe>
                     </div>
                 
                 <div>
                     <h3 className='sub-header'>Latest Release</h3>
                     <iframe 
-                        id="disco-playlist-18365508" 
-                        name="disco-playlist-18365508" 
-                        allowFullScreen 
-                        frameBorder="0" 
-                        className="disco-embed" 
-                        src="https://domolo.disco.ac/e/p/18365508?download=true&s=N40dfJjCfHeGt2fx85pZKut4g4o%3Az3bn1YNg&artwork=true&color=%23FBE094&theme=dark" 
-                        width="480" 
-                        height="580">
-                    </iframe>
+                    id="disco-playlist-18365508" 
+                    name="disco-playlist-18365508" 
+                    allowfullscreen frameborder="0" 
+                    class="disco-embed" 
+                    src="https://domolo.disco.ac/e/p/18365508?download=false&s=uFM5f2zfZkJJvqguTKcoSbobl04%3AlfahHRWK&artwork=true&color=%234B6CD3&theme=dark" 
+                    width="480" 
+                    height="580"
+                    ></iframe>
                 </div>
             
             </div>
